@@ -1,6 +1,7 @@
 # Odometer
 
-Approach
+# Approach
+
 We have a function named validityCheck which takes a number and returns true if the number is valid
 and false if the number is not valid.
 
