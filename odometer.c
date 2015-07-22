@@ -18,3 +18,18 @@ class Odometer {
 Odometer::Odometer(int lenght) {
 	this->length = length;
 }
+
+int Odometer::previousNumber(int input){
+	if(input == min){
+		int previous = max;
+		return previous;
+	}
+	while(input>min){
+		bool valid = isValidNumber(--input);
+		if(valid){
+			return input;
+		}
+	}
+}
+
+
