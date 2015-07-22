@@ -9,9 +9,10 @@ class Odometer {
 	public:
 		int length;
 		Odometer(int);
-		bool isValid(int number[])
-		int[] nextNumber(int number[]);
-		int[] previousNumber(int number[]);
+		bool isValidNumber(int)
+		int nextNumber(int);
+		int previousNumber(int);
+		int difference(int, int);
 }
 
 Odometer::Odometer(int lenght) {
